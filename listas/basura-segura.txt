@@ -18,3 +18,8 @@ com.android.dreams.phototable              # Protector de pantalla de fotos
 
 # --- Xiaomi / Mi TV ---
 com.mitv.tvhome                            # PatchWall (launcher con publicidad)
+
+# --- TCL / MediaTek (apps de demostración y extras, no del sistema base) ---
+com.tcl.browser                            # Navegador de TCL (poco útil con control remoto)
+com.mediatek.MtkDemo                       # App de demostración de MediaTek
+fusion.android.tv.demo                     # Modo demo de tienda

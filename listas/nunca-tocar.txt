@@ -21,3 +21,27 @@ com.android.webview
 com.google.android.webview
 com.google.android.inputmethod.latin
 com.google.android.leanback.ime
+
+# --- TCL / MediaTek: sistema base de la TV (imagen, entradas HDMI, ajustes) ---
+com.mediatek.tv.service
+com.mediatek.tvinput
+com.mediatek.wwtv.tvcenter
+com.mediatek.wwtv.setupwizard
+com.mediatek.wwtv.setup.customization
+com.mediatek.wwtv.webview
+com.mediatek.android.tv.globalkeyoverlay
+com.mediatek.android.tv.googletvremotepaireroverlay
+com.mediatek.android.tv.mdns.offload.overlay
+com.tcl.overlay.tv.settings
+com.tcl.overlay.tvcenter
+com.tcl.partnercustomizer
+com.tcl.keyhelp
+com.tcl.suspension
+com.tcl.ttvs
+com.tcl.useragreement
+com.tcl.factory.view
+com.tpa.ci
+com.mstar.android.tv.disclaimercustomization
+com.dolby.android.audio.service
+com.netflix.tokenmanager
+mediatek.factorymenu.ui
