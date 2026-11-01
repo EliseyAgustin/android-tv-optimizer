@@ -10,7 +10,7 @@ Android TV usando ADB. No necesita root y **todo se puede deshacer**.
 | 1. Quitar bloatware | Desactiva apps inútiles de Google y del fabricante ([lista](listas/basura-segura.txt)) | ✅ Opción 6 |
 | 2. Apps opcionales | Te pregunta una por una por Netflix, YouTube, Asistente, Chromecast, etc. | ✅ Opción 6 |
 | 3. Acelerar | Animaciones a 0.5x, limpia caché y opcionalmente optimiza todas las apps | ✅ Opción 6 |
-| 4. Diseño minimalista | Pone **Projectivy Launcher** o **FLauncher** como inicio y desactiva el de fábrica (con publicidad) | ✅ Opción 6 |
+| 4. Diseño minimalista | Pone **Projectivy Launcher** o **FLauncher** como inicio. **No** desactiva el de fábrica | ✅ Opción 6 |
 | 5. Auditar | Lista las apps de sistema del fabricante para revisarlas a mano | (solo lectura) |
 | 6. Restaurar | Reactiva todo lo que el script desactivó y vuelve las animaciones a 1x | — |
 
@@ -69,6 +69,12 @@ Una vez activo, en sus ajustes:
 - **Filas:** dejá una sola fila con tus 6-8 apps reales; ocultá "Recomendados" y "Canales".
 - **Reloj y clima** arriba, chiquitos; tarjetas en tamaño pequeño con esquinas redondeadas.
 - **Ocultá** del cajón de apps lo que nunca abrís.
+
+## ⚠️ Advertencia importante
+**No desactives el inicio original de Google TV** (`com.google.android.apps.tv.launcherx`).
+En una TCL 32S5K, hacerlo dejó la TV trabada en el logo de Google TV y sin acceso por ADB.
+El script ya no lo hace. Si el botón Home sigue abriendo el inicio de fábrica, buscá en los
+ajustes de Projectivy la opción para reemplazar el botón Home.
 
 ## Si algo sale mal
 - **Pantalla negra al apretar Home:** corré la opción `6`, o directamente:

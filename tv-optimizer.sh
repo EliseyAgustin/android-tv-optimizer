@@ -219,15 +219,11 @@ EOF
   respaldar
   ejecutar cmd package set-home-activity "$comp"
 
-  # En Google TV el botón Home sigue abriendo el inicio de Google aunque cambies el
-  # predeterminado. La única forma sin root es desactivar el inicio original.
-  local stock
-  for stock in com.google.android.apps.tv.launcherx com.google.android.tvlauncher com.google.android.leanbacklauncher com.mitv.tvhome; do
-    grep -qxF "$stock" <<<"$todos" || continue
-    amarillo "Para que el botón Home abra $elegido hay que desactivar $stock."
-    echo "  (Si algo sale mal, la opción 6 lo vuelve a activar.)"
-    preguntar "  ¿Desactivar $stock?" && desactivar "$stock"
-  done
+  # IMPORTANTE: NO desactivamos el inicio original de Google/TCL. En una TCL 32S5K
+  # hacerlo dejó la TV trabada en el logo de Google TV y sin acceso a ADB.
+  amarillo "Aviso: en Google TV el botón Home puede seguir abriendo el inicio original."
+  echo "  Si pasa, en los ajustes de Projectivy buscá la opción para reemplazar el botón Home."
+  echo "  Este script NO desactiva el inicio original porque puede dejar la TV sin arrancar."
   verde "Apretá el botón Home del control para ver el nuevo inicio."
 }
 

@@ -45,3 +45,9 @@ com.mstar.android.tv.disclaimercustomization
 com.dolby.android.audio.service
 com.netflix.tokenmanager
 mediatek.factorymenu.ui
+
+# --- Launchers de fábrica: desactivarlos puede dejar la TV trabada en el logo ---
+com.google.android.apps.tv.launcherx
+com.google.android.tvlauncher
+com.google.android.leanbacklauncher
+com.mitv.tvhome

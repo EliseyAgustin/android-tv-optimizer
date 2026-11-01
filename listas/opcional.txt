@@ -10,9 +10,6 @@ com.google.android.youtube.tv              # YouTube
 com.google.android.katniss                 # Asistente / búsqueda por voz de Google
 com.google.android.apps.mediashell         # Chromecast integrado (transmitir desde el celular)
 com.google.android.marvin.talkback         # TalkBack (lector de pantalla)
-com.google.android.apps.tv.launcherx       # Inicio de Google TV (desactivar SOLO con otro launcher instalado)
-com.google.android.tvlauncher              # Inicio de Android TV (desactivar SOLO con otro launcher instalado)
-com.google.android.leanbacklauncher        # Inicio de Android TV viejo (ídem)
 com.mediatek.wwtv.mediaplayer              # Reproductor de pendrive de TCL (si usás otro, como VLC/Kodi)
 com.tcl.messagebox                         # Mensajes/avisos de TCL (puede ser publicidad; probalo)
 com.tcl.logkit                             # Registro de diagnóstico de TCL
