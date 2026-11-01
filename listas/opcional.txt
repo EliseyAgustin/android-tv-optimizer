@@ -1,0 +1,15 @@
+# Apps que mucha gente considera basura pero que tal vez SÍ usás.
+# El script te pregunta una por una antes de tocarlas.
+
+com.netflix.ninja                          # Netflix
+com.amazon.amazonvideo.livingroom          # Prime Video
+com.disney.disneyplus                      # Disney+
+com.hbo.hbonow                             # Max / HBO
+com.spotify.tv.android                     # Spotify
+com.google.android.youtube.tv              # YouTube
+com.google.android.katniss                 # Asistente / búsqueda por voz de Google
+com.google.android.apps.mediashell         # Chromecast integrado (transmitir desde el celular)
+com.google.android.marvin.talkback         # TalkBack (lector de pantalla)
+com.google.android.apps.tv.launcherx       # Inicio de Google TV (desactivar SOLO con otro launcher instalado)
+com.google.android.tvlauncher              # Inicio de Android TV (desactivar SOLO con otro launcher instalado)
+com.google.android.leanbacklauncher        # Inicio de Android TV viejo (ídem)

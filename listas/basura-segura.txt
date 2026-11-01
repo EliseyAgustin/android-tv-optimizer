@@ -1,0 +1,20 @@
+# Bloatware que se puede desactivar sin romper la TV.
+# Formato: un paquete por línea. Lo que va después de '#' es un comentario.
+# Si un paquete no existe en tu TV, el script lo salta solo.
+
+# --- Google: apps y servicios que casi nadie usa ---
+com.google.android.videos                  # Google TV / Play Películas
+com.google.android.music                   # Google Play Música (abandonada)
+com.google.android.play.games              # Google Play Juegos
+com.google.android.youtube.tvmusic         # YouTube Music
+com.google.android.youtube.tvkids          # YouTube Kids
+com.google.android.feedback                # Envío de comentarios a Google
+com.google.android.tvrecommendations       # Filas de recomendaciones/publicidad del inicio
+com.google.android.leanbacklauncher.recommendations  # Recomendaciones (Android TV viejo)
+com.google.android.apps.tv.dreamx          # Protector de pantalla "ambiente" de Google TV
+com.android.printspooler                   # Servicio de impresión (una TV no imprime)
+com.android.dreams.basic                   # Protector de pantalla básico
+com.android.dreams.phototable              # Protector de pantalla de fotos
+
+# --- Xiaomi / Mi TV ---
+com.mitv.tvhome                            # PatchWall (launcher con publicidad)
